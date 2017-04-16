@@ -3,16 +3,14 @@
 
   "name": "Pocket Dictionary",
   "description": "Pocket dictionary dedicated to help you remember words",
-  "version": "1.0",
+  "version": "0.1",
 
   "browser_action": {
-    "default_icon": "icon2.png",
-    "default_popup": "popup.html",
-   "default_title": "Dictionary"
+    "default_icon": "./images/icon.png",
+    "default_popup": "index.html",
+    "default_title": "Dictionary"
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/",
-    {"fileSystem": ["write"]}
+    "activeTab"
   ]
 }

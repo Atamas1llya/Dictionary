@@ -1,0 +1,30 @@
+#switchMenu {
+  cursor: pointer;
+}
+#menu {
+  position: fixed;
+  left: 7px;
+  top: 7px;
+  width: 200px;
+  height: auto;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 5px;
+
+  z-index: 999;
+  display: none;
+}
+#menu > .tab {
+  width: 100%;
+  height: 40px;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+#menu > .tab:hover {
+  background: rgba(0,0,0,.02);
+}

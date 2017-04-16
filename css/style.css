@@ -1,107 +1,15 @@
-html {
-  font-family: 'Roboto', sans-serif;
-}
-::-webkit-scrollbar {
-    width: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 2px;
-    background: #2962FF;
-}
-
-input[type='text'] {
-  background: none;
-  outline: none;
-  border: none;
-
-  margin: 5px;
-
-  font-size: 15px;
-  color: rgba(0, 0, 0, .87);
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  font-weight: 200;
-  color: rgba(0, 0, 0, .87);
-}
-
-#container {
-  width: 550px;
-  height: auto;
-
-  padding: 1px;
-}
 #words {
   width: 100%;
   height: auto;
   margin-top: 55px;
 
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 
   overflow-x: hidden;
   overflow-y: auto;
 }
-.panel {
-  position: fixed;
-
-  left: 4px;
-  top: 4px;
-
-  height: 50px;
-  width: calc(100% - 12px) !important;
-}
-.section {
-  width: calc(100% - 4px);
-  height: 50px;
-  margin: 5px 2px;
-
-  background: white;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  overflow: hidden;
-}
 
 .section > h2 {
   margin: 0 15px;
-}
-
-.section>.new {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.new > .newWord {
-  height: 30px;
-}
-
-#add {
-  width: 60px;
-  height: 30px;
-
-  font-size: 15px;
-  background: #2962FF;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-radius: 2px;
-  color: white;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
-}
-#add:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 }
